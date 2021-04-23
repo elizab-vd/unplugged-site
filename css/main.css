@@ -85,7 +85,271 @@ textarea {
 
 /* ==========================================================================
    Author's custom styles
-   ========================================================================== */
+   ==========================================================================*/
+
+
+/*=========Base Header and Footer Styles (Homepage, FAQ, About pages)========*/
+
+header, footer {
+	display: flex;
+	justify-content: center;
+	align-items: center;	
+}
+
+/*-----------Header Styles-------------*/
+header .content-wrapper {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-flow: column nowrap;
+}
+
+.logo {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	
+}
+
+.header-divider {
+	width: 100%;
+	height:auto;
+	border: 1px solid #ffffff; 
+	
+}
+
+header nav ul {
+	display: flex;
+	justify-content: space-between; 
+	align-items:center; 
+	flex-flow: row wrap; 
+}
+
+ul li a {
+	
+}
+
+.hero-area {
+	display: flex;	
+	
+}
+
+h1 {
+	
+}
+
+/*--------Footer Styles---------*/
+
+/*----Contact----*/
+
+footer .content-wrapper {
+	
+}
+
+.footer-content {
+	
+}
+
+.contact {
+	
+}
+
+address {
+	
+}
+
+/*----Social Media Icon section----*/
+
+.social {
+	
+}
+
+.social-icons {
+	
+}
+
+.social-icons p {
+	
+}
+
+
+/*========================MOBILE HOMEPAGE STYLES====================*/
+
+/*---------Main Section Styles--------*/
+
+aside {
+	
+}
+
+	/*--------Newsletter Styles-------*/
+
+.form-description {
+	
+}
+
+h2 {
+	
+}
+
+.form-description p {
+	
+}
+
+.form {
+	
+}
+
+input {
+	
+}
+
+	/*--------Features Styles---------*/
+
+.features {
+	
+}
+
+.features .content-wrapper {
+	
+}
+
+
+article .features-items {
+	
+}
+
+.fontawesome-icon {
+	
+}
+
+.features-items-description {
+	
+}
+
+	/*------------Reviews Styles-------------*/
+
+section .reviews {
+	
+}
+
+.reviews .contentwrapper{
+	
+}
+
+.review-image {
+	
+}
+
+.review-description {
+	
+}
+
+h3 {
+	
+}
+
+.review-description p {
+	
+}
+
+/*==============End of Homepage Styles==========*/
+
+/*===============MOBILE ABOUT STYLES====================*/
+
+.mission .content-wrapper {
+	
+}
+
+.mission-content {
+	
+}
+
+.mission-content h1 {
+	
+}
+
+.mission-description-1 {
+	
+}
+
+.mission-description-2 {
+	
+}
+
+.map {
+	
+}
+
+figure {
+	
+}
+
+.contact-section {
+	
+}
+
+.contact-section .content-wrapper {
+	
+}
+
+.general-info {
+	
+}
+
+.general-info h2 {
+	
+
+}
+
+.general-info address {
+	
+	
+}
+
+/*===============MOBILE FAQ STYLES====================*/
+
+.faq .content-wrapper {
+	
+}
+
+.faq .content-wrapper article {
+	
+}
+
+
+p.faq-answer {
+	
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*=============TABLET HOMEPAGE STYLES=================*/
+
+
+/*=============TABLET ABOUT STYLES====================*/
+
+
+/*=============TABLET FAQ STYLES======================*/
+
+
+/*=============DESKTOP HOMEPAGE STYLES================*/
+
+
+/*=============DESKTOP ABOUT STYLES===================*/
+
+
+/*=============DESKTOP FAQ STYLES===================*/
+
 
 /* ==========================================================================
    Helper classes
