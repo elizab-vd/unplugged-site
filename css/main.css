@@ -86,18 +86,77 @@ textarea {
 /* ==========================================================================
    Author's custom styles
    ==========================================================================*/
+/* General Styles */
+
+html {
+	font-size: 16px;
+}
 
 
-/*=========Base Header and Footer Styles (Homepage, FAQ, About pages)========*/
+body { 
+	font-family:'Open Sans', sans-serif;
+	margin: 0;
+	padding: 0;
+}
 
-body {
-	font-size: 14px; 
+ul,
+ol {
+	font-family: 'Open Sans', sans-serif; 
+	font-size: 1.125em;	
+}
+
+a {
+	text-transform: uppercase;
+	font-weight: bold;
+	color: #e2e3ed;	
+}
+
+h1 {
+	font-family: 'Poppins', sans-serif;
+	font-size: 2.25em;
+	font-weight: normal;
+	
+}
+
+h2 {
+	font-family: 'Poppins', sans-serif;
+	font-size: 1.875em;
+	font-weight: normal;
+}
+
+h3, 
+h4 {
+	font-family: 'Poppins', sans-serif;
+	font-size: 1.125em;
+	font-weight: normal;
+	color: #e2e3ed;	
+}
+
+p {
+	font-size: 0.875em;
+	color: #e2e3ed; 
+	line-height: 18px;
+}
+
+img {
+	width: 100%;
+	
+}
+
+figure {
+	
+}
+
+address {
+	
 }
 
 .content-wrapper {
 	width: 100%;
 	margin: 50px 0;
 }
+
+/*=========Base Header and Footer Styles (Homepage, FAQ, About pages)========*/
 
 header, footer {
 	display: flex;
@@ -122,11 +181,15 @@ header .content-wrapper {
 	margin: 0;
 }
 
+.logo {
+	width: 60%;
+}
+
 .header-divider {
 	width: 100%; 
 	height: 1px;
 	margin: 10px 0 20px 0;
-	border-bottom: 1px solid #e2e3ed; 
+	border-bottom: 1px solid #3a3a3a; 
 }
 
 header nav {
@@ -153,8 +216,6 @@ ul li a {
 	font-size: 1.28rem;		
 }
 
-
-
 h1 {
 	font-size: 2.25rem; 
 	color: #e2e3ed; 	
@@ -171,6 +232,12 @@ footer {
 
 footer p {
 	margin: 0;
+	padding-bottom: 45px; 
+}
+
+footer h4{
+	margin:0;
+	padding-bottom: 15px;
 }
 
 footer .content-wrapper {
@@ -223,38 +290,40 @@ footer .copyright {
 	display: flex;
 	justify-content: center;
 	flex-flow: row wrap;
+	background-image: url("../img/jake-melara-30679-unsplash.png");
+	background-size: cover;
+	background-position: center;
+	height: 500px;
 }
 
-.hero-area img {
-	margin: 0;
-	padding: 0; 
-	width: 100%;
-	
+h1 {
+	margin: 0 20px;
+}
 
+main {
+	background:#527158;
+	margin: 0;
+	padding: 0;
 }
 
 /* Aside */
 
 aside { 
-	background:#527158;
 	width: 100%;
+    
 }
 
 	/*--------Newsletter Styles-------*/
 
 .form-description {
-		margin: 0 20px;
-	    padding: 20px; 
+	 margin: 0 20px;
+	 background:#527158;
+	 margin-bottom: 55px;
 }
 
 h2 {
-	margin:0;
-	padding: 0;
-	
-}
-
-.form-description p {
-	
+	padding: 20px;
+	color: #e2e3ed;
 }
 
 .form {
@@ -267,34 +336,29 @@ input {
 
 	/*--------Features Styles---------*/
 
-.features {
-	margin: 55px 20px; 
-	display: flex;
-	justify-content:center;
-	align-items:center;
-	flex: row nowrap;
+section.features {
+	margin: 20px 0 0 0;
+	background-image:url("../img/rawpixel-800820-unsplash.png");
+	background-size: cover;
+	padding-bottom: 50px;
+
 }
 
-.features .content-wrapper {
-	
-	
-
-	
-}
-
-article .features  {
-	width: 55%;
+section.content-wrapper {
 	display: flex;
 	justify-content: center;
-	align-items:center;
+	align-items: center;
+	
+			
 }
-
 
 
 .features-items {
-	text-align: center;
 	display: flex;
 	justify-content: center;
+	flex-flow: row wrap;
+	text-align:center;
+
 }
 
 .fontawesome-icon {
@@ -302,38 +366,48 @@ article .features  {
 }
 
 .features-item-description {
-	padding: 40px 0;
 	width: 55%;
+	margin: 50px;
+	padding-left: 35px;
 	
 
 }
 
 	/*------------Reviews Styles-------------*/
 
-section .reviews { 
-	margin: 55px 20px;
+section.reviews { 
+	margin: 0;
 	display: flex;
 	justify-content: center;
+	align-items: center;
+	background-color: #2a423a;
 }
 
-.reviews-content-wrapper {
+section .reviews .content-wrapper {
 	width: 88%;
 }
 
+.reviews h2 {
+	margin: 0 20px;
+	padding: 0;
+}
+
 .review-image {
-	width:100%;
+	width:90%;
+	margin: 20px;
 }
 
+.reviews h3 {
+	margin-top: 0;
+	
+}
 .review-description {
-	
-}
-
-h3 {
-	font-size: 2.14rem;
-	
+	margin: 0 20px;
 }
 
 .review-description p {
+	color: #fff;
+	margin: 0;
 	
 }
 
@@ -406,26 +480,6 @@ p.faq-answer {
 	
 }
 
-
-
-
-
-/*=============TABLET HOMEPAGE STYLES=================*/
-
-
-/*=============TABLET ABOUT STYLES====================*/
-
-
-/*=============TABLET FAQ STYLES======================*/
-
-
-/*=============DESKTOP HOMEPAGE STYLES================*/
-
-
-/*=============DESKTOP ABOUT STYLES===================*/
-
-
-/*=============DESKTOP FAQ STYLES===================*/
 
 
 /* ==========================================================================
@@ -516,15 +570,18 @@ p.faq-answer {
    Modify as content requires.
    ========================================================================== */
 
-@media only screen and (min-width: 35em) {
-  /* Style adjustments for viewports that meet the condition */
+@media only screen and (min-width: 768px) {
+  /* Tablet Styles */
+	
+	
+	
 }
 
-@media print,
-  (-webkit-min-device-pixel-ratio: 1.25),
-  (min-resolution: 1.25dppx),
-  (min-resolution: 120dpi) {
-  /* Style adjustments for high resolution devices */
+@media only screen and (min-width: 1200px) {
+  /* Desktop Styles */
+	
+	
+	
 }
 
 /* ==========================================================================
