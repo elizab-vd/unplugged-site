@@ -235,13 +235,20 @@ footer p {
 	padding-bottom: 45px; 
 }
 
+footer.footer-content .contact h3 {
+	padding-top: 0;
+	margin: 0; 
+}
+
 footer h4{
 	margin:0;
 	padding-bottom: 15px;
 }
 
+
+
 footer .content-wrapper {
-	margin: 50px 0; 
+	margin: 25px 0; 
 	width: 55%;
 }
 
@@ -347,9 +354,7 @@ section.features {
 section.content-wrapper {
 	display: flex;
 	justify-content: center;
-	align-items: center;
-	
-			
+	align-items: center;		
 }
 
 
@@ -358,7 +363,6 @@ section.content-wrapper {
 	justify-content: center;
 	flex-flow: row wrap;
 	text-align:center;
-
 }
 
 .fontawesome-icon {
@@ -369,8 +373,6 @@ section.content-wrapper {
 	width: 55%;
 	margin: 50px;
 	padding-left: 35px;
-	
-
 }
 
 	/*------------Reviews Styles-------------*/
@@ -414,28 +416,29 @@ section .reviews .content-wrapper {
 /*==============End of Homepage Styles==========*/
 
 /*===============MOBILE ABOUT STYLES====================*/
+main {
+	padding-top: 5px;
+}
 
-.mission .content-wrapper {
+
+.mission .content-wrapper h2 {
+	margin-top: 0; 
+    padding: 0 0 50px 0;
 	
 }
 
 .mission-content {
-	
+	margin: 0 20px;
+	color: #e1e2ea;
 }
 
-.mission-content h1 {
-	
-}
-
-.mission-description-1 {
-	
-}
-
-.mission-description-2 {
-	
+.mission-description {
+	padding-top: 25px;
+	margin-top: 25px;	
 }
 
 .map {
+	height: 450px;
 	
 }
 
@@ -443,40 +446,47 @@ figure {
 	
 }
 
-.contact-section {
+section.contact-section {
+	margin: 0;
+	color: #e1e2ea;
+	background: #2a423a;
 	
 }
 
-.contact-section .content-wrapper {
+section.contact-section .content-wrapper {
+	margin: 0 20px;
+	padding: 55px 0 55px 0;
 	
 }
 
-.general-info {
-	
+.contact-section h2 {
+	padding: 0;
+	margin-bottom: 20px;
 }
 
-.general-info h2 {
-	
-
+.contact-section h3 {
+	margin: 20px 0 15px 0;
 }
-
-.general-info address {
 	
-	
-}
 
 /*===============MOBILE FAQ STYLES====================*/
 
-.faq .content-wrapper {
-	
+section.faq {
+	padding-bottom: 5px; 
+
 }
 
-.faq .content-wrapper article {
-	
+section.faq .content-wrapper {
+	padding: 0 20px 0 20px; 
+	width: 90%;	
+	margin-bottom: 0; 
 }
 
-
-p.faq-answer {
+section.faq h2 {
+	padding: 0;
+}
+p.faq-answer  {
+	padding-bottom: 36px;
 	
 }
 
