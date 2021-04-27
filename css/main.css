@@ -582,10 +582,191 @@ p.faq-answer  {
 
 @media only screen and (min-width: 768px) {
   /* Tablet Styles */
+
+  /* General Styles */
+
+  .content-wrapper {
+	  width: 85%;
+	  margin: 0 60px;
+  }
+
+ /* Header */
+
+ header {
+	 justify-content: space-around;
+	 padding: 33px 0; 
+ }
+
+ header .content-wrapper {
+	 justify-content: space-between;
+ }
+
+ .logo {
+	 width: 28%;
+ }
+ header nav {
+	 width: 20%;
+ }
+
+ header nav ul {
+	 justify-content: space-between;
 	
-	
-	
+ }
+
+ header nav ul li a {
+    font-size: 16px;
+ }
+
+ .header-divider {
+	 display: none;
+ }
+ 
+
+/* Hero-Area */
+
+.hero-area {
+	background-image: url("../img/jake-melara-30679-unsplash-tablet.png");
+	height: 600px; 
+	margin-top: -5px; 
 }
+.hero-area .content-wrapper {
+	height: inherit;
+	width: inherit; 
+	padding: 0; 
+}
+
+h1 {
+	font-size: 3rem;
+	line-height: 3rem;
+	margin: 90px 0;
+}
+
+/* Aside */
+
+/* Newsletter styles */
+
+aside .content-wrapper {
+	display: flex;
+	justify-content: space-between;
+	flex-flow: row wrap;
+}
+
+h3 {
+	margin-top: 30px; 
+	padding: 0;
+}
+
+ .form-description,
+ .form {
+	width: 40%;
+	margin: 0; 
+}
+
+/* Features */
+
+section.features {
+	background-image: url("../img/rawpixel-800820-unsplash-tablet.png");
+	background-size: cover;
+}
+
+.features h2 {
+	padding: 68px 0 20px 0;
+	font-size: 2.25rem;
+	line-height: 48px;
+}
+
+.features .features-item-description {
+	width: 50%;
+}
+
+.features article {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-flow: column wrap;
+    flex-basis: 50%;
+}
+
+.features-items-description {
+	font-size: 0.875rem;
+	line-height: 18px; 
+}
+
+.fontawesome-icon {
+
+}
+
+/* Reviews Styles */
+
+.reviews h2 {
+	padding: 100px 0 25px 0; 
+	font-size: 2.25rem;
+	width: 85%;
+	margin: 0;
+}
+
+.review-image {
+	width: 48%;
+	margin-right: 16px;
+	margin: 0;
+}
+
+.reviews h3 {
+	font-size: 1.5rem;
+}
+
+.reviews article {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-flow: row nowrap;
+	flex-basis: 50%;
+	padding-bottom: 100px;
+}
+
+.review-description {
+	font-size: 0.875rem;
+
+}
+
+/* Footer */
+
+
+footer .content-wrapper {
+	width: 65%;
+	margin: 100px 0;
+}
+
+.footer-content {
+	display: flex;
+	justify-content: space-between;
+	align-items: flex-start;
+}
+
+footer .contact {
+	margin: 0;
+	padding: 0;
+}
+
+footer .copyright {
+	width: 100%;
+}
+
+footer p {
+	padding-bottom: 0; 
+}
+footer .social h4 {
+	padding: 0;
+}
+
+.copyright {
+	padding-bottom: 10px;
+	padding-top: 20px;
+}
+
+
+
+
 
 @media only screen and (min-width: 1200px) {
   /* Desktop Styles */
