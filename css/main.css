@@ -875,8 +875,8 @@ footer.social h4 {
 	margin: 0;
 }
 
-section.map {
-	height: 350px;
+.map figure  {
+	padding-bottom: 45%; 
 }
 
 /* Contact */
@@ -1137,8 +1137,8 @@ section.features {
 	
 }
 
-section.map {
-	height: 448px;
+.map figure  {
+	padding-bottom: 37.5%; 
 }
 
 /* Contact */
