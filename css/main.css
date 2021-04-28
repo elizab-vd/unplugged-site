@@ -148,6 +148,7 @@ figure {
 }
 
 address {
+	font-style: normal;
 	
 }
 
@@ -679,8 +680,6 @@ h1 {
 
 /* Aside */
 
-/* Newsletter styles */
-
 aside .content-wrapper {
 	display: flex;
 	justify-content: space-between;
@@ -720,9 +719,6 @@ input[type=button]{
 	padding: 10px;
 
 }
-
-
-
 
 /* Features */
 
@@ -822,7 +818,9 @@ footer p {
 }
 
 footer h3 {
-	margin: 0; 
+	margin: 0;
+	padding-bottom: 40px;
+
 }
 
 footer.social h4 {
@@ -872,6 +870,8 @@ footer.social h4 {
 section.map {
 	height: 350px;
 }
+
+/* Contact */
 
 .contact-section h2 {
 	font-size: 2.25rem;
@@ -956,11 +956,223 @@ section.contact-section .content-wrapper {
 
 @media only screen and (min-width: 1200px) {
 
+/* General Styles */
 
-	
-	
+.content-wrapper {
+	width: 80%;
+	margin: 0 120px;
+}
 
+/* Header */
+
+.logo {
+	width: 30%;
+}
+
+header nav {
+	width: 14.2%;
+}
+
+header nav ul li a {
+	font-size: 18px;
+}
+
+
+/* Footer */
+
+
+address p {
+	font-size: 1.125rem;
+	line-height: 24px;	
+}
+
+.contact h4 {
+	padding-bottom: 40px;
+}
+.copyright p {
+	font-size: 1.125rem;
+}
+
+
+/*==================================================================
+	DESKTOP HOMEPAGE
+===================================================================*/
+
+/* Hero-Area */
+
+.hero-area {
+	background-image: url("../img/jake-melara-30679-unsplash.jpg");	
+}
+
+h1 {
+	font-size: 3.75rem;
+	line-height: 4.25rem;
+	padding-right: 120px;
+	margin: 50px 0;
+
+}
+
+/* Aside */
+
+aside div.content-wrapper {
+	margin: 0 200px 0 200px;
 	
+}
+
+aside h3 {
+	font-size: 1.875rem;
+	margin-bottom: 16px;
+}
+
+.form-description p {
+	font-size: 1.125rem;
+	line-height: 24px;
+}
+
+.form h3 {
+	font-size: 1.875rem;
+}
+
+div.form {
+	margin-top: 20px; 
+}
+
+div.form-description {
+	padding-left: 20px;
+}
+.form-description,
+div.form {
+	width: 33%;
+	padding-right: 160px;
+}
+
+input[type=text] {
+	padding: 16px;
+	font-size: 1.125rem;
+}
+
+input[type=button]{ 
+	padding: 13px;
+	font-size: 1.5rem;
+
+}
+
+/* Features */
+
+section.features {
+	background-image: url("../img/rawpixel-800820-unsplash1.jpg");
+	padding: 0;
+}
+
+.features h2 {
+	padding: 100px 100px 20px 0;
+
+}
+
+.features-items {
+	margin: 150px 0 0 0;
+}
+
+.features .features-item-description {
+	width: 45%;
+	margin: 0;
+}
+
+.features article {
+	margin-bottom: 100px; 
+}
+.features article {
+	flex-basis: 33%;
+}
+
+/* Reviews Styles */
+
+.reviews h2 {
+	padding: 100px 0 100px 0;
+}
+
+.review-image {
+	width: 45%;
+}
+
+.reviews article {
+ align-items: flex-start;
+}
+
+.review-description {
+	margin: 0 40px;
+}
+
+.reviews h3 {
+	font-size: 1.875rem;
+}
+
+.review-description p {
+	font-size: 1.125rem;
+	line-height: 24px;
+}
+
+/*===============================================================
+	DESKTOP ABOUT PAGE
+================================================================*/
+
+.mission-content {
+	padding: 100px 0;
+	margin: 0 10px;
+}
+
+.mission h2 {
+	font-size: 3rem;
+	line-height: auto;
+	
+}
+
+.mission-content p {
+	width: 47%;
+	font-size: 1.125rem;
+	line-height: 24px;
+	
+}
+
+section.map {
+	height: 448px;
+}
+
+/* Contact */
+
+section.contact-section .content-wrapper{
+	margin: 0 120px;
+	padding: 100px 0;
+}
+
+.contact-section .content-wrapper h2 {
+	font-size: 3rem;
+	line-height: 72px;
+	margin: 0;
+	width: 100%;
+}
+
+.contact-content {
+	align-items: flex-start;
+}
+
+.contact-content .general-info h3,
+.contact-content .facilitator h3 {
+	margin: 0;
+	font-size: 1.875rem;
+	padding-bottom: 40px;
+}
+
+.contact-content address {
+	font-size: 1.125rem;
+}
+
+.facilitator {
+	margin-right: 125px;
+}
+
+
+
 }
 
 /* ==========================================================================
