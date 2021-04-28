@@ -335,13 +335,33 @@ h2 {
 	color: #e2e3ed;
 }
 
-.form {
-	
-}
 
-input {
-	
-}
+aside .form {
+	margin-top: 30px;
+	padding: 0 20px;
+  }
+   
+  input[type=text] {
+	box-sizing: border-box;
+	width: 100%;
+	color: #2a423a;
+	font-style: italic;
+	padding: 1em;
+  }
+   
+  input[type=button] {
+	width: 100%;
+	padding: 20px 0;
+	margin-top: 20px;
+	background-color: #2a423a;
+	font-family: 'Poppins', Helvetica, Arial, sans-serif;
+	font-weight: 500;
+	font-size: 1.125em;
+	color: #e2e3ed;
+	border: none;
+	text-align: center;
+	text-transform: uppercase;
+  }
 
 	/*--------Features Styles---------*/
 
@@ -667,16 +687,42 @@ aside .content-wrapper {
 	flex-flow: row wrap;
 }
 
-h3 {
-	margin-top: 30px; 
-	padding: 0;
+aside h3 {
+	font-size: 1.5rem;
 }
+
+div.form {
+	padding: 0;
+	width: 45%;
+}
+
+.form-description h3 {
+	margin-top: 50px;
+
+}
+.form h3 {
+	margin-bottom: 20px;
+}
+
 
  .form-description,
  .form {
 	width: 40%;
 	margin: 0; 
 }
+
+input[type=text] {
+	padding: 10px;
+}
+
+
+input[type=button]{ 
+	padding: 10px;
+
+}
+
+
+
 
 /* Features */
 
@@ -903,10 +949,17 @@ section.contact-section .content-wrapper {
 }
 
 
+/*==============================================================================
+	DESKTOP STYLES 
+===============================================================================*/
+
+
 @media only screen and (min-width: 1200px) {
-  /* Desktop Styles */
+
+
 	
 	
+
 	
 }
 
