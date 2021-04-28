@@ -1171,7 +1171,37 @@ section.contact-section .content-wrapper{
 	margin-right: 125px;
 }
 
+/*============================================================
+	DESKTOP FAQ PAGE 
+=============================================================*/
 
+.faq {
+	padding-bottom: 100px;
+}
+
+.faq h2 {
+	font-size: 3rem;
+	line-height: auto;
+	padding: 0 0 20px 0;
+}
+
+.faq-content {
+	align-items: flex-start;
+}
+
+.faq h3,
+.faq p {
+	font-size: 1.125rem;
+	line-height: 1.2rem;
+}
+
+.faq h3 {
+	margin: 20px 0 20px 0;
+}
+
+.faq p {
+	margin: 0 0 20px 0;
+}
 
 }
 
