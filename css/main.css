@@ -144,6 +144,7 @@ img {
 }
 
 figure {
+	margin:0;
 	
 }
 
@@ -300,10 +301,11 @@ footer .copyright {
 	display: flex;
 	justify-content: center;
 	flex-flow: row wrap;
-	background-image: url("../img/jake-melara-30679-unsplash.png");
+	background-image: url('../img/jake-melara-30679-unsplash.png');
 	background-size: cover;
 	background-position: center;
 	height: 500px;
+	margin-top: -5px;
 }
 
 h1 {
@@ -368,8 +370,9 @@ aside .form {
 
 section.features {
 	margin: 20px 0 0 0;
-	background-image:url("../img/rawpixel-800820-unsplash.png");
+	background-image:url('../img/rawpixel-800820-unsplash1-resized.jpg');
 	background-size: cover;
+	background-position: center;
 	padding-bottom: 50px;
 
 }
@@ -418,7 +421,7 @@ section .reviews .content-wrapper {
 }
 
 .review-image {
-	width:90%;
+	width: 100%;
 	margin: 20px;
 }
 
@@ -722,10 +725,6 @@ input[type=button]{
 
 /* Features */
 
-section.features {
-	background-image: url("../img/rawpixel-800820-unsplash-tablet.png");
-	background-size: cover;
-}
 
 .features h2 {
 	padding: 68px 0 20px 0;
@@ -763,12 +762,6 @@ section.features {
 	margin: 0;
 }
 
-.review-image {
-	width: 48%;
-	margin-right: 16px;
-	margin: 0;
-}
-
 .reviews h3 {
 	font-size: 1.5rem;
 }
@@ -776,14 +769,19 @@ section.features {
 .reviews article {
 	display: flex;
 	justify-content: center;
-	align-items: center;
+	align-items: flex-start;
 	flex-flow: row nowrap;
 	flex-basis: 50%;
 	padding-bottom: 100px;
 }
 
+.review-image {
+	margin: 0;
+}
+
 .review-description {
 	font-size: 0.875rem;
+
 
 }
 
@@ -1060,7 +1058,6 @@ input[type=button]{
 /* Features */
 
 section.features {
-	background-image: url("../img/rawpixel-800820-unsplash1.jpg");
 	padding: 0;
 }
 
@@ -1089,10 +1086,6 @@ section.features {
 
 .reviews h2 {
 	padding: 100px 0 100px 0;
-}
-
-.review-image {
-	width: 45%;
 }
 
 .reviews article {
