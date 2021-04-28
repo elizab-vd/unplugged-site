@@ -287,7 +287,9 @@ footer .copyright {
 }
 
 
-/*========================MOBILE HOMEPAGE STYLES====================*/
+/*========================================================
+	MOBILE HOMEPAGE STYLES
+==========================================================*/
 
 /*---------Main Section Styles--------*/
 
@@ -415,7 +417,10 @@ section .reviews .content-wrapper {
 
 /*==============End of Homepage Styles==========*/
 
-/*===============MOBILE ABOUT STYLES====================*/
+
+/*===============================================
+	MOBILE ABOUT STYLES
+================================================*/
 main {
 	padding-top: 5px;
 }
@@ -471,22 +476,31 @@ section.contact-section .content-wrapper {
 
 /*===============MOBILE FAQ STYLES====================*/
 
-section.faq {
-	padding-bottom: 5px; 
+.faq {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-flow: row wrap;
 
 }
 
-section.faq .content-wrapper {
-	padding: 0 20px 0 20px; 
-	width: 90%;	
-	margin-bottom: 0; 
+.faq .content-wrapper {
+	margin: 50px 0 0 0;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-flow: row wrap;
 }
 
-section.faq h2 {
-	padding: 0;
+.faq h2 {
+	margin: 0;
+	padding: 0 0 0 20px;
 }
-p.faq-answer  {
-	padding-bottom: 36px;
+
+.faq-content {
+	margin-bottom: 50px;
+	padding: 0 20px;
+}
 	
 }
 
@@ -581,7 +595,9 @@ p.faq-answer  {
    ========================================================================== */
 
 @media only screen and (min-width: 768px) {
-  /* Tablet Styles */
+  /* ====================================================================
+  HOMEPAGE TABLET 
+  ======================================================================= */
 
   /* General Styles */
 
@@ -731,6 +747,9 @@ section.features {
 
 /* Footer */
 
+footer {
+	padding-bottom: 100px;
+}
 
 footer .content-wrapper {
 	width: 65%;
@@ -740,22 +759,27 @@ footer .content-wrapper {
 .footer-content {
 	display: flex;
 	justify-content: space-between;
-	align-items: flex-start;
+	align-items: center;
 }
 
 footer .contact {
-	margin: 0;
-	padding: 0;
+	margin-bottom: 0;
+	
 }
 
-footer .copyright {
+footer.copyright {
 	width: 100%;
 }
 
 footer p {
 	padding-bottom: 0; 
 }
-footer .social h4 {
+
+footer h3 {
+	margin: 0; 
+}
+
+footer.social h4 {
 	padding: 0;
 }
 
@@ -764,8 +788,119 @@ footer .social h4 {
 	padding-top: 20px;
 }
 
+/*=========================================================
+	ABOUT Page TABLET 
+===========================================================*/
 
+.mission-content {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	flex-flow: row wrap;
+	padding: 95px 0;
 
+}
+
+.mission h2 {
+	font-size: 2.25rem;
+	padding-bottom: 40px;
+	margin: 0;
+}
+
+.mission-content p {
+	width: 47%;
+
+}
+.mission article {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	flex-flow: row wrap;
+}
+
+.mission-description {
+	padding: 0;
+	margin: 0;
+}
+
+section.map {
+	height: 350px;
+}
+
+.contact-section h2 {
+	font-size: 2.25rem;
+	line-height: 48px;
+	margin: 0;
+}
+
+section.contact-section .content-wrapper {
+	margin: 0 65px;
+	padding-bottom: 100px;
+}
+
+.contact-section .content-wrapper h2 {
+	width: 85%;
+
+}
+
+.contact-content {
+	display: flex;
+	justify-content:space-between;
+	align-items: center;
+	flex-flow: row wrap; 
+	margin-top: 30px;
+}
+
+.contact-content h3 {
+	font-size: 1.5rem;
+}
+
+.contact-content address {
+	font-size: 0.875rem;
+}
+
+.facilitator  h3 {
+	margin-top: 0;
+}
+
+.facilitator {
+	margin-right: 45px;
+}
+
+/*=========================================================
+	FAQ Page TABLET 
+===========================================================*/
+
+.faq {
+	padding-bottom: 86px;
+}
+
+.faq h2 {
+	font-size: 2.25rem;
+	line-height: 48px;
+	width: 100%;
+}
+
+.faq .content-wrapper {
+	justify-content: space-between;	
+}
+
+.faq-content {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	flex-flow: column wrap;
+	flex-basis: 45%;
+	padding: 0;
+	margin-bottom: 0;
+
+}
+
+.faq h3,
+.faq p {
+	font-size: 0.875rem;
+	line-height: 18px;
+}
 
 
 @media only screen and (min-width: 1200px) {
