@@ -90,13 +90,17 @@ textarea {
 
 html {
 	font-size: 16px;
+	
+	
 }
-
 
 body { 
 	font-family:'Open Sans', sans-serif;
 	margin: 0;
 	padding: 0;
+	overflow-x: hidden;
+	height: 100%;
+	width: 100%;
 }
 
 ul,
@@ -211,7 +215,7 @@ header nav ul {
 	margin: 0; 
 }
 
-ul li a {
+header nav ul li a {
 	text-transform: uppercase;
 	text-decoration: none;
 	color: #e2e3ed; 
@@ -285,7 +289,7 @@ footer .social-icons i {
 	padding: 12px;
 	border-radius: 50%;
 	width: 15px;
-	margin: 0 25px 0 25px;
+	margin: 0 10px 0 10px;
 	
 }
 
@@ -377,7 +381,7 @@ aside .form {
 
 	/*--------Features Styles---------*/
 
-section.features {
+.features {
 	margin: 20px 0 0 0;
 	background-image:url('../img/rawpixel-800820-unsplash1-resized.jpg');
 	background-size: cover;
@@ -387,7 +391,7 @@ section.features {
 
 }
 
-section.features .content-wrapper {
+.features .content-wrapper {
 	margin-bottom: 0;		
 }
 
@@ -428,10 +432,9 @@ p.features-item-description {
 }
 
 
-
 	/*------------Reviews Styles-------------*/
 
-section.reviews { 
+.reviews { 
 	margin: 0;
 	display: flex;
 	justify-content: center;
@@ -439,7 +442,7 @@ section.reviews {
 	background-color: #2a423a;
 }
 
-section .reviews .content-wrapper {
+.reviews .content-wrapper {
 	width: 88%;
 }
 
@@ -449,7 +452,7 @@ section .reviews .content-wrapper {
 }
 
 .review-image {
-	width: 100%;
+	width: 85%;
 	margin: 20px;
 }
 
@@ -473,6 +476,8 @@ section .reviews .content-wrapper {
 /*===============================================
 	MOBILE ABOUT STYLES
 ================================================*/
+
+
 main {
 	padding-top: 5px;
 }
@@ -534,6 +539,10 @@ section.contact-section .content-wrapper {
 .contact-section h3 {
 	margin: 20px 0 15px 0;
 }
+
+footer .social-icons i {
+	margin: 0 10px 0 10px;
+}
 	
 
 /*===============MOBILE FAQ STYLES====================*/
@@ -541,7 +550,7 @@ section.contact-section .content-wrapper {
 .faq {
 	display: flex;
 	justify-content: center;
-	align-items: center;
+	align-items: flex-start;
 	flex-flow: row wrap;
 
 }
@@ -549,22 +558,22 @@ section.contact-section .content-wrapper {
 .faq .content-wrapper {
 	margin: 50px 0 0 0;
 	display: flex;
-	justify-content: center;
-	align-items: center;
+	justify-content: flex-start;
+	align-items: flex-start;
 	flex-flow: row wrap;
 }
 
 .faq h2 {
 	margin: 0;
-	padding: 0 0 0 20px;
+	padding-left: 20px;
+	width: 75%;
+	
 }
 
 .faq-content {
 	margin-bottom: 50px;
 	padding: 0 20px;
 }
-	
-
 
 
 
@@ -678,7 +687,7 @@ section.contact-section .content-wrapper {
  header .content-wrapper {
 	 justify-content: space-between;
  }
-
+ 
  .logo {
 	 width: 28%;
  }
@@ -692,7 +701,7 @@ section.contact-section .content-wrapper {
  }
 
  header nav ul li a {
-    font-size: 16px;
+    font-size: 1rem;
  }
 
  .header-divider {
@@ -704,7 +713,6 @@ section.contact-section .content-wrapper {
 
 .hero-area {
 	height: 600px; 
-	margin-top: -5px; 
 }
 
 .hero-area .content-wrapper {
@@ -863,6 +871,10 @@ footer h3 {
 
 }
 
+footer .social-icons i {
+	margin: 0 25px 0 25px;
+}
+
 footer h4 {
 	padding-bottom: 40px;
 }
@@ -919,7 +931,7 @@ footer h4 {
 	margin: 0;
 }
 
-section.contact-section .content-wrapper {
+.contact-section .content-wrapper {
 	margin: 0 65px;
 	padding-bottom: 100px;
 }
@@ -959,11 +971,13 @@ section.contact-section .content-wrapper {
 
 .faq {
 	padding-bottom: 86px;
+	align-items: flex-start;
 }
 
 .faq h2 {
 	font-size: 2.25rem;
 	line-height: 48px;
+	padding: 0 0 20px 0;
 	width: 100%;
 }
 
@@ -974,7 +988,7 @@ section.contact-section .content-wrapper {
 .faq-content {
 	display: flex;
 	justify-content: space-between;
-	align-items: center;
+	align-items: flex-start;
 	flex-flow: column wrap;
 	flex-basis: 45%;
 	padding: 0;
@@ -1080,7 +1094,7 @@ div.form-description {
 .form-description,
 div.form {
 	width: 33%;
-	padding-right: 160px;
+	padding-right: 150px;
 }
 
 input[type=text] {
@@ -1136,23 +1150,24 @@ p.features-item-description {
 }
 
 .reviews article {
- 	align-items: flex-start;
- 	margin: 0 200px 0 120px;
- 
+ align-items: flex-start;
 }
 
 .review-description {
 	margin: 0 40px;
+	width: 100%;
 }
+
 
 .reviews h3 {
 	font-size: 1.875rem;
+
 }
 
 .review-description p {
 	font-size: 1.125rem;
 	line-height: 24px;
-	width: 25%;
+	
 }
 
 /*===============================================================
