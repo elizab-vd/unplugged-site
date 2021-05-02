@@ -244,9 +244,8 @@ footer.footer-content .contact h3 {
 
 footer h4{
 	margin:0;
-	padding-bottom: 15px;
+	padding-bottom: 20px;
 }
-
 
 
 footer .content-wrapper {
@@ -273,10 +272,25 @@ address {
 /*----Social Media Icon section----*/
 
 footer .social-icons {
+	display: flex;
+	justify-content: center;
+	align-items: center; 
+	flex-flow: row wrap;
+}
+
+
+/*color #788f80 */
+footer .social-icons p {
 	
 }
 
-footer .social-icons p {
+footer .social-icons i {
+	font-size: 1.125rem;
+	background: #527158;
+	padding: 12px;
+	border-radius: 50%;
+	width: 15px;
+	margin: 0 25px 0 25px;
 	
 }
 
@@ -854,8 +868,8 @@ footer h3 {
 
 }
 
-footer.social h4 {
-	padding: 0;
+footer h4 {
+	padding-bottom: 40px;
 }
 
 .copyright {
