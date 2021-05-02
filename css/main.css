@@ -279,11 +279,6 @@ footer .social-icons {
 }
 
 
-/*color #788f80 */
-footer .social-icons p {
-	
-}
-
 footer .social-icons i {
 	font-size: 1.125rem;
 	background: #527158;
@@ -315,9 +310,9 @@ footer .copyright {
 	display: flex;
 	justify-content: center;
 	flex-flow: row wrap;
-	background-image: url('../img/jake-melara-30679-unsplash.png');
+	background-image: url('../img/jake-melara-30679-unsplash-resized.jpg');
 	background-size: cover;
-	background-position: center;
+	background-position:center;
 	height: 500px;
 	margin-top: -5px;
 }
@@ -569,7 +564,7 @@ section.contact-section .content-wrapper {
 	padding: 0 20px;
 }
 	
-}
+
 
 
 
@@ -708,10 +703,10 @@ section.contact-section .content-wrapper {
 /* Hero-Area */
 
 .hero-area {
-	background-image: url("../img/jake-melara-30679-unsplash-tablet.png");
 	height: 600px; 
 	margin-top: -5px; 
 }
+
 .hero-area .content-wrapper {
 	height: inherit;
 	width: inherit; 
@@ -1045,9 +1040,6 @@ address p {
 
 /* Hero-Area */
 
-.hero-area {
-	background-image: url("../img/jake-melara-30679-unsplash.jpg");	
-}
 
 h1 {
 	font-size: 3.75rem;
@@ -1144,7 +1136,9 @@ p.features-item-description {
 }
 
 .reviews article {
- align-items: flex-start;
+ 	align-items: flex-start;
+ 	margin: 0 200px 0 120px;
+ 
 }
 
 .review-description {
@@ -1158,6 +1152,7 @@ p.features-item-description {
 .review-description p {
 	font-size: 1.125rem;
 	line-height: 24px;
+	width: 25%;
 }
 
 /*===============================================================
